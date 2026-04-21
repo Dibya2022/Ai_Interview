@@ -11,7 +11,7 @@ const InterviewHistory = lazy(() => import('./pages/InterviewHistory'))
 const Pricing = lazy(() => import('./pages/Pricing'))
 const InterviewReport = lazy(() => import('./pages/InterviewReport'))
 
-export const ServerUrl  = import.meta.env.VITE_SERVER_URL || "http://localhost:8000"
+export const ServerUrl  = import.meta.env.VITE_SERVER_URL || "https://ai-interview-r9dq.onrender.com"
 
 const PageLoader = () => (
   <div className="min-h-screen flex items-center justify-center px-4">
